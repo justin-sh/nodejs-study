@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import './style.css';
 import Icon from './icon.png';
-import Data from './data.xml';
+// import Data from './data.xml';
 import printMe from './print';
 
 function component() {
@@ -22,7 +22,7 @@ function component() {
 
   element.appendChild(tick);
 
-  console.log(Data);
+  // console.log(Data);
 
   return element;
 }
